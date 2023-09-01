@@ -1,4 +1,5 @@
 # Crie uma classe que modele o objeto "carro".
+Carro 
 # Um carro tem os seguintes atributos: ligado, cor, modelo, velocidade.
 # Um carro tem os seguintes comportamentos: liga, desliga, acelera, desacelera.
 

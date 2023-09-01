@@ -59,6 +59,6 @@ class Pikachu(BasePokemon):
 
 pokemon = Pikachu('Pikachu')
 print(pokemon.nome + ' é um pokemon do tipo ' + pokemon.tipo)
-for _ in range(125):
+for _ in range(126):
     pokemon.ataque_principal()
     pokemon.ataque_secundario()

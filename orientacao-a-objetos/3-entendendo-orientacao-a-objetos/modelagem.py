@@ -20,6 +20,7 @@ for i in range(4):
     estacionamento.estacionar_carro(carros[i])
 print(estacionamento)
 
+
 # Estaciona 6 motos
 for i in range(6):
     estacionamento.estacionar_moto(motos[i])
@@ -33,7 +34,7 @@ estacionamento.remover_carro(carros[0])
 print(estacionamento)
 
 # Tenta estacionar uma moto que já está no estacionamento
-# estacionamento.estacionar_moto(motos[5])
+estacionamento.estacionar_moto(motos[5])
 
 # Estaciona uma nova moto
 estacionamento.estacionar_moto(motos[6])
