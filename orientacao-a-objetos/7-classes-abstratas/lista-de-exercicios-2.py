@@ -58,12 +58,12 @@ class Conta:
             print(operacao)
 
 
-cliente1 = ClienteMulher("Maria", "123456789", 3000)
-cliente2 = Cliente("João", "987654321", 4000, genero="homem")
+cliente1 = ClienteMulher("Maria", "123456789", 0)
+cliente2 = Cliente("João", "987654321", 0, genero="homem")
 
-conta = Conta([cliente1, cliente2])
+conta = Conta([cliente2])
 
-conta.deposito(1000)
+conta.deposito(10)
 conta.saque(500)
 conta.extrato()
 
