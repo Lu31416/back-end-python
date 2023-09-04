@@ -12,9 +12,34 @@
 # 5. Clientes homens por enquanto não têm direito a cheque especial.
 
 # Para modelar seu sistema, utilize obrigatoriamente os conceitos "classe", "herança", "propriedades", "encapsulamento" e "classe abstrata".
+class Cliente:
+    def __init__(self, nome, telefone, renda_mensal):
+    self.nome = nome
+    self.telefone = telefone
+    self.renda_mensal = renda_mensal
 
-Class Conta:
-    def_init_(self, nome) 
+
+class ClienteMulher(cliente):
+    def __init__(self, nome, telefone, renda_mensal):
+        super().__init__(nome, telefone, renda_mensal)
+        self.cheque_especial = renda_mensal
+     
+
+class Conta:
+    def __init_(self):
+    self.titulares = []
+    self.saldo = 0
+
+    def saque(self):
+        for titular in self.titulares:
+            if titular.mulher:
+                saldo_disponivel = self.saldo + cheque_especial
+            else
+        if saldo > 0
+            saldo -= extracao
+            print ('voce extraiu {extracao}, seu novo saldo é{saldo}')
+        else print ()
+
 
 
 contas devem ter um ou mais clientes
