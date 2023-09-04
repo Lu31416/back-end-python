@@ -69,8 +69,8 @@ class Conta(ContaBase):
             print(operacao)
 
 
-cliente1 = ClienteMulher("Maria", "123456789", 0)
-cliente2 = Cliente("João", "987654321", 0, genero="homem")
+cliente1 = ClienteMulher("Luisa", "123456789", 0)
+cliente2 = Cliente("Pedro", "987654321", 0, genero="homem")
 
 conta = Conta([cliente2])
 

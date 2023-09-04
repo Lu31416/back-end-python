@@ -18,7 +18,7 @@ while continuar:
             valor = float(valor)
             valores.append(valor)
         except ValueError:
-            print('Valor inválido. Por favor, insira um número válido.')
+            print('Valor inválido.')
 
 media = calcular_media(valores)
 print('A média calculada para os valores {} foi de {}'.format(valores, media))
