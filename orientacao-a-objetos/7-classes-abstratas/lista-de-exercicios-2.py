@@ -12,6 +12,8 @@
 # 5. Clientes homens por enquanto não têm direito a cheque especial.
 
 # Para modelar seu sistema, utilize obrigatoriamente os conceitos "classe", "herança", "propriedades", "encapsulamento" e "classe abstrata".
+from abc import ABC, abstractmethod
+
 class Cliente:
     def __init__(self, nome, telefone, renda_mensal, genero):
         self.nome = nome
@@ -19,6 +21,15 @@ class Cliente:
         self.renda_mensal = renda_mensal
         self.genero = genero
 
+class ContaBase(ABC):
+    def __init__(self, titulares):
+        self.titulares = titulares
+        self.saldo = 0
+        self.operacoes = []
+
+    @abstractmethod
+    def saque(self, valor):
+        pass
 
 class ClienteMulher(Cliente):
     def __init__(self, nome, telefone, renda_mensal):
@@ -26,7 +37,7 @@ class ClienteMulher(Cliente):
         self.cheque_especial = renda_mensal
      
 
-class Conta:
+class Conta(ContaBase):
     def __init__(self, titulares):
         self.titulares = titulares
         self.saldo = 0
