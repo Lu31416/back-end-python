@@ -44,12 +44,17 @@ class Carro:
         print(f"Modelo: {self.modelo}")
         print(f"Cor: {self.cor}")
 
+# Crie uma instância da classe carro.
+
 meu_carro = Carro("Corolla", "Prata")
+
+# Faça o carro "andar" utilizando os métodos da sua classe.
 meu_carro.acelera(20)
 meu_carro.ligar()
 meu_carro.acelera(20)
 meu_carro.desacelera(10)
 meu_carro.desacelera(100)
+# Faça o carro "parar" utilizando os métodos da sua classe.
 meu_carro.desligar()
 meu_carro.desacelera(10)
 meu_carro.status()
@@ -59,10 +64,7 @@ meu_carro.status()
 
 
 
-# Crie uma instância da classe carro.
 
 
-# Faça o carro "andar" utilizando os métodos da sua classe.
 
 
-# Faça o carro "parar" utilizando os métodos da sua classe.

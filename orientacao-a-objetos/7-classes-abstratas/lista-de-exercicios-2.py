@@ -12,3 +12,13 @@
 # 5. Clientes homens por enquanto não têm direito a cheque especial.
 
 # Para modelar seu sistema, utilize obrigatoriamente os conceitos "classe", "herança", "propriedades", "encapsulamento" e "classe abstrata".
+
+Class Conta:
+    def_init_(self, nome) 
+
+
+contas devem ter um ou mais clientes
+clientes: nome, telefone, renda mensal
+conta: saldo, operacoes: saque: dimunie saldo, deposito, aumenta o saldo
+cliente mulher pode fazer saque ate -renda mensal
+cliente homem nao pode
