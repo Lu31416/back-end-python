@@ -162,3 +162,5 @@ televisao.aumentar_volume()
 * Criamos duas listas: uma de carros e uma de motos. Utilizamos a biblioteca `random` para gerar valores inteiros aleatórios que representem as placas dos veículos.
 * Em seguida, testamos as lógicas que criamos.
 
+
+

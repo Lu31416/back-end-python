@@ -46,7 +46,7 @@ class Carro:
 
 # Crie uma instância da classe carro.
 
-meu_carro = Carro("Corolla", "Prata")
+meu_carro = Carro("Etios", "Prata")
 
 # Faça o carro "andar" utilizando os métodos da sua classe.
 meu_carro.acelera(20)
